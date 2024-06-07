@@ -29,66 +29,69 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import cloudtek from './company/cloudtek.jpeg';
-import aksaSds from './company/aksa-sds.png';
-import deltaShoppe from './company/deltashoppe.jpeg';
+import cloudtek from "./company/cloudtek.jpeg";
+import aksaSds from "./company/aksa-sds.png";
+import deltaShoppe from "./company/deltashoppe.jpeg";
+import fidelityIcon from "./company/fidelityIcon.jpeg";
+import lockin from "./company/lockin.png";
 
-import java from './tech/java.png';
-import angular from './tech/angular.png';
-import laravel from './tech/laravel.png';
-import nextjs from './tech/nextjs.png';
-import postgresql from './tech/postgresql.png';
-import mysimplerx from './mysimplerx.png';
-import vars from './vars.png';
-import flexigolf from './flexigolf.png';
-import chotok from './chotok.png';
-import portfolio from './portfolio.png';
-import ugap from './ugap.png';
-import edfry from './edfry.png';
-
+import java from "./tech/java.png";
+import angular from "./tech/angular.png";
+import laravel from "./tech/laravel.png";
+import nextjs from "./tech/nextjs.png";
+import postgresql from "./tech/postgresql.png";
+import mysimplerx from "./mysimplerx.png";
+import vars from "./vars.png";
+import flexigolf from "./flexigolf.png";
+import chotok from "./chotok.png";
+import portfolio from "./portfolio.png";
+import ugap from "./ugap.png";
+import edfry from "./edfry.png";
 
 export {
-    logo,
-    backend,
-    creator,
-    mobile,
-    web,
-    github,
-    menu,
-    close,
-    css,
-    docker,
-    figma,
-    git,
-    html,
-    javascript,
-    mongodb,
-    nodejs,
-    reactjs,
-    redux,
-    tailwind,
-    typescript,
-    threejs,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    carrent,
-    jobit,
-    tripguide,
-    cloudtek,
-    aksaSds,
-    deltaShoppe,
-    java,
-    angular,
-    laravel,
-    nextjs,
-    postgresql,
-    mysimplerx,
-    vars,
-    flexigolf,
-    portfolio,
-    ugap,
-    edfry,
-    chotok
+  logo,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
+  css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+  threejs,
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+  carrent,
+  jobit,
+  tripguide,
+  cloudtek,
+  aksaSds,
+  deltaShoppe,
+  fidelityIcon,
+  lockin,
+  java,
+  angular,
+  laravel,
+  nextjs,
+  postgresql,
+  mysimplerx,
+  vars,
+  flexigolf,
+  portfolio,
+  ugap,
+  edfry,
+  chotok,
 };

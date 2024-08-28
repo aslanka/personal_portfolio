@@ -25,6 +25,9 @@ import {
   postgresql,
   git,
   mysimplerx,
+  leaf,
+  lock,
+  food,
   vars,
   flexigolf,
   chotok,
@@ -44,7 +47,7 @@ export const navLinks = [
   },
 
   {
-    id: "Blogs",
+    id: "blogs",
     title: "Blogs",
   },
   {
@@ -273,32 +276,37 @@ const projects = [
       { name: "React", color: "green-text-gradient" },
       { name: "Blockchain", color: "pink-text-gradient" },
     ],
-    image: mysimplerx,
-    source_code_link: "https://github.com/localleaf",
+    image: leaf,
+    source_code_link: "https://github.com/aslanka/LocalLeaf",
+    hack: "true",
   },
   {
-    name: "Feather.js",
+    name: "LockedIn Web Application",
     description:
-      "Created Nimble.js, a JavaScript templating library for dynamically injecting content into HTML pages.",
+      "Developed a web application to market our company and offers a chatting service to get 24/7 lifestyle coaching",
     tags: [
-      { name: "JavaScript", color: "blue-text-gradient" },
-      { name: "Java", color: "red-text-gradient" },
+      { name: "Vite", color: "blue-text-gradient" },
+      { name: "Node.js", color: "red-text-gradient" },
+      { name: "Websocket", color: "green-text-gradient" },
+      { name: "Linux", color: "pink-text-gradient" },
     ],
-    image: mysimplerx,
-    source_code_link: "https://github.com/featherjs",
+    image: lock,
+    source_code_link: "https://chat.golockedin.com/",
+    live_demo: "true",
   },
   {
     name: "EatsQuest",
     description:
       "Developed a mobile application to help users discover nearby restaurants based on their preferences.",
     tags: [
-      { name: "Flutter", color: "blue-text-gradient" },
-      { name: "Java", color: "red-text-gradient" },
-      { name: "Spring Boot", color: "green-text-gradient" },
+      { name: "React-Native", color: "blue-text-gradient" },
+      { name: "Node.js", color: "red-text-gradient" },
+      { name: "Redis", color: "green-text-gradient" },
       { name: "Google Places API", color: "pink-text-gradient" },
     ],
-    image: mysimplerx,
+    image: food,
     source_code_link: "https://github.com/eatsquest",
+    live_demo: "false",
   },
 ];
 

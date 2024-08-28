@@ -44,13 +44,7 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className={"mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"}
             >
-                I'm a skilled full-stack developer with experience in various technologies, including Node.js, Angular,
-                React.js, NextJS, Java Spring, Laravel, and Lumen, I have developed and maintained enterprise
-                applications, financial web applications, and branchless banking systems. I have a proven track record
-                of optimizing legacy databases and queries to reduce latency and have integrated third-party APIs and
-                libraries to enhance the functionality of web applications. I have also developed microservices
-                architecture and collaborated with project managers, designers, and other developers to deliver
-                high-quality products on time.
+             I'm a computer science student at the University of North Carolina at Charlotte, minoring in mathematics. I have a strong passion for coding and have gained valuable experience in full-stack development through various side projects. I also enjoy writing and share my insights on computer science through blogs on my personal portfolio, where I engage with the coding community. Outside of my academic pursuits, I love cooking, trying new recipes, and I'm an enthusiastic soccer fan. Feel free to reach out if you have any questions or just want to chat!
             </motion.p>
             <div className={"mt-20 flex flex-wrap gap-10"}>
                 {services.map((service, index) => {

@@ -41,6 +41,9 @@ import laravel from "./tech/laravel.png";
 import nextjs from "./tech/nextjs.png";
 import postgresql from "./tech/postgresql.png";
 import mysimplerx from "./mysimplerx.png";
+import leaf from "./leaf.png"
+import lock from "./lock.png"
+import food from "./food.jpg"
 import vars from "./vars.png";
 import flexigolf from "./flexigolf.png";
 import chotok from "./chotok.png";
@@ -88,6 +91,9 @@ export {
   nextjs,
   postgresql,
   mysimplerx,
+  leaf,
+  lock,
+  food,
   vars,
   flexigolf,
   portfolio,

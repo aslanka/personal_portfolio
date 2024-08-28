@@ -14,6 +14,8 @@ const ProjectCard = ({
                          tags,
                          image,
                          source_code_link,
+                         live_demo,
+                         hack
                      }) => {
     return (
         <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -42,6 +44,7 @@ const ProjectCard = ({
                                 alt='source code'
                                 className='w-1/2 h-1/2 object-contain'
                             />
+                            
                         </div>
                     </div>
                 </div>
@@ -60,6 +63,34 @@ const ProjectCard = ({
                             #{tag.name}
                         </p>
                     ))}
+
+                        {/* Conditionally render the live demo link */}
+                        {hack === "true" && (
+                        <div className="mt-auto">
+                            <a
+                                href={'https://devpost.com/software/localleaf'}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-white-500 hover:underline"
+                            >
+                                DevPost Link
+                            </a>
+                        </div>
+                    )}
+
+                       {/* Conditionally render the live demo link */}
+                       {live_demo === "true" && (
+                        <div className="mt-auto">
+                            <a
+                                href={source_code_link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-white-500 hover:underline "
+                            >
+                                Live Demo
+                            </a>
+                        </div>
+                    )}
                 </div>
             </Tilt>
         </motion.div>

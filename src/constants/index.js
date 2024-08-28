@@ -236,7 +236,7 @@ const experiences = [
       "Utilized React Native, Firebase, and Node.js to architect and develop a dynamic and responsive cross-platform mobile application.",
       "Spearheaded the creation of a launch website hosted on Vercel, ensuring a seamless user experience and effective brand representation.",
       "Implemented Continuous Integration/Continuous Deployment (CI/CD) pipelines using GitHub Actions, automating the deployment process and enhancing development workflow efficiency",
-      "Orchestrated the deployment of the application to an Amazon EC2 instance, optimizing server infrastructure for scalability and performance",
+      "Orchestrated the deployment of the application to an Amazon EC2 instance and eventually migrated the application to on-premise servers to reduce costs",
       "Managed the entire development lifecycle, from building the application in React Native to iOS deployment via TestFlight, ensuring compatibility and functionality across platform",
       "Established a robust Zero Trust network using Cloudflare for an on-premise server hosting the backend and administrative website, prioritizing security and access control meas",
     ],

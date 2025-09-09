@@ -227,6 +227,17 @@ const testimonials = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Fidelity Investments",
+    icon: fidelityIcon,
+    date: "Jan 2024 - Current",
+    points: [
+      "Designed and implemented automated test cases to validate complex workflows, improving test coverage and reducing manual regression effort",
+      "Built and maintained thorough API test suites, ensuring endpoints met functional, performance, and reliability requirements across multiple environments",
+      "Collaborated with developers and QA engineers to identify defects early, streamline debugging, and improve overall release quality and confidence",
+    ],
+  },
+  {
     title: "Co-Founder & Developer",
     company_name: "LockedIn",
     icon: lockin,
@@ -253,16 +264,6 @@ const experiences = [
       "Tested other developers' code in a testing environment before production deployment.",
     ],
   },
-  {
-    title: "Full-Stack Software Engineer Intern",
-    company_name: "Fidelity Investments",
-    icon: fidelityIcon,
-    date: "Jun 2022 - Aug 2022",
-    points: [
-      "Joined a SCRUM team, participated in ceremonies, and developed an Angular component to display DynamoDB data.",
-      "Integrated Angular components with a Spring Boot microservice to manage DynamoDB data.",
-    ],
-  },
 ];
 
 const projects = [
@@ -281,17 +282,17 @@ const projects = [
     hack: "true",
   },
   {
-    name: "LockedIn Web Application",
+    name: "Website for local business",
     description:
-      "Developed a web application to market our company and offers a chatting service to get 24/7 lifestyle coaching",
+      "Developed a web application to help promote local restaurant in Durham, NC",
     tags: [
       { name: "Vite", color: "blue-text-gradient" },
       { name: "Node.js", color: "red-text-gradient" },
-      { name: "Websocket", color: "green-text-gradient" },
-      { name: "Linux", color: "pink-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Cloud Hosting", color: "pink-text-gradient" },
     ],
-    image: lock,
-    source_code_link: "https://chat.golockedin.com/",
+    image: "src/assets/IMG_2969.jpg",
+    source_code_link: "https://terracekitchenduke.com/",
     live_demo: "true",
   },
   {
